@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style2.css">
+  <title>Contact</title>
+</head>
+
+<body class="body-contact">
+  <nav class="navbar">
+    <!-- Logo-->
+    <div class="nav-logo">
+      <a href="index.html"><img src="Images/logo1.1.png" alt="Logo" class="logo"></a>
+    </div>
+    <h1 class="name-nav"><a href="index.html">Predators Combat Grappling</a></h1>
+    <!-- Nav menu-->
+    <input type="checkbox" id="menu-toggle" class="menu-toggle">
+    <label for="menu-toggle" id="menu-toggle-label">&#9776;</label>
+    <ul class="nav-links">
+      <!-- Nav items -->
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="bjj.html">Beginners&nbsp;BJJ</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <!-- Sign up button-->
+        <div class="sign-up"><a href="contact.html" id="sign-up-button">Sign&nbsp;Up</a></div>
+  </nav>
+  <section class="grid-section-contact">
+      <form class="container-form">
+        <h1>Membership Enquiry</h1>
+        <div class="form-personal"> <!-- arialabel attribute works as a 'label' element to avoid errors-->
+          <input type="text" aria-label="name" id="name" placeholder="Name">
+          <input type="email" aria-label="email" id="email" placeholder="Email">
+          <input type="tel" aria-label="contact-number" id="phone" placeholder="Contact number">
+        </div>
+        <div class="form-misc-gender">
+          <span>Gender:</span>
+          <span>
+            <label>Male<input type="radio" name="gender" value="Male"></label>
+            <label>Female<input type="radio" name="gender" value="Female"></label>
+          </span>
+        </div>
+        <div class="form-membership">
+          <label for="membership" id="form-membership">Membership type:</label>
+          <select name="training" id="membership">
+            <option value="beginner">£40 - Adult, once a week</option>
+            <option value="novice">£70 - Adult unlimited</option>
+            <option value="blue">£35 - Under 18, once a week</option>
+            <option value="purple">£55 - Under 18 unlimited</option>
+            <option value="experienced">£50 - Seniors (over 55) unlimited</option>
+          </select>
+        </div>
+        <textarea name="message" id="message" cols="30" rows="10" placeholder="Message" aria-label="Enter message"></textarea>
+        <div class="form-button">
+          <input type="submit" value="Submit">
+          <div class="tnc">
+            <p>By clicking the submit button, you are agreeing to our privacy policy.</p>
+            <p>Furthermore, you must read our terms and conditions before joining the club as a member.</p>
+          </div>
+        </div>
+        <div class="address-contact">
+          <h2>Contact</h2>
+          <p>13-15 Orpington Close, Culchester, CH1 9RP. Entrance is located behind the green gates.</p>
+          <p>You can also direct all your general queires towards <a
+              href="mailto:message@predatorscombatgrapple.co.uk ">message@predatorscombatgrapple.co.uk</a>,
+            or contact us at <a href="tel:01612657861">0161 265 7861</a>.
+          </p>
+        </div>
+      </form>
+  </section>
+  <footer class="footer">
+    <div class="footer-a">
+      <div class="footer-content">
+        <ul class="footer-list">
+          <li><a target="_blank" href="https://www.instagram.com/salforduni/?hl=en">Instagram</a></li>
+          <li><a target="_blank" href="https://en-gb.facebook.com/salforduni/">Facebook</a></li>
+          <li><a target="_blank" href="https://goo.gl/maps/rzjtikW1o5YYavDn9"> Gym location</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-b">
+      <p><a href="https://www.google.co.uk/?gws_rd=ssl" target="_blank">Privacy&nbsp;policy</a></p>
+      <p>Copyrighted by Burhan <span>&copy;</span></p>
+      <p><a href="https://www.google.co.uk/?gws_rd=ssl" target="_blank">Terms&nbsp;and&nbsp;Conditions</a></p>
+    </div>
+  </footer>
+</body>
+
+</html>
